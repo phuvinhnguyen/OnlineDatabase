@@ -3,12 +3,13 @@
 ## Description
 
 Push and get json files to huggingface, github with Python
+
 **Requirement:** Python 3.10
 
 ## Install
 
 ```python
-pip install git+https://github.com/phuvinhnguyen/OnlineDatabase.git@main
+pip install git+https://github.com/phuvinhnguyen/OnlineDatabase.git
 ```
 
 ## How to use
