@@ -14,7 +14,7 @@ pip install git+https://github.com/phuvinhnguyen/OnlineDatabase.git
 
 ## How to use
 ```python
-from OnlineDatabase.OnlineDatabase.mleval import EvaluationAttempt, EvaluationDatabase, Information
+from OnlineDatabase.mleval import EvaluationAttempt, EvaluationDatabase, Information
 
 model_hyperparams = dict(layer=16, ddim=256)
 train_hyperparams = dict(num_epochs=1, batch_size=32, learning_rate=0.0005)
