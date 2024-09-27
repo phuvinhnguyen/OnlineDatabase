@@ -1,3 +1,5 @@
+import json
+
 class ExampleValidation:
     def __init__(self,
                  score,
@@ -12,4 +14,4 @@ class ExampleValidation:
 
     def __repr__(self) -> str:
         # Return json like string
-        return str(self.data)
+        return json.dumps(self.data, indent=4)
