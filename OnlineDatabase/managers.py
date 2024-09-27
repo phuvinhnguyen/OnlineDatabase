@@ -25,7 +25,8 @@ class GitHubManager:
             file = repo.get_contents(file_path)
             return file.decoded_content.decode('utf-8')
         except Exception as e:
-            return f"An error occurred: {str(e)}"
+            print(f"An error occurred: {str(e)}")
+            return None
 
 class HuggingFaceRepoManager:
     def __init__(self, hf_token):
@@ -53,4 +54,5 @@ class HuggingFaceRepoManager:
                 os.remove(file_dir)
             return file_content
         except Exception as e:
-            return f"An error occurred: {str(e)}"
+            print(f"An error occurred: {str(e)}")
+            return None
