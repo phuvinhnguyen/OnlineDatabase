@@ -1,14 +1,12 @@
 class ExampleValidation:
     def __init__(self,
                  score,
-                 validate_scores,
-                 validate_samples,
+                 validate_instances,
                  meta_data,
                  ) -> None:
         self.data = {
             "score": score,
-            "validate_scores": validate_scores,
-            "validate_samples": validate_samples,
+            "validate": validate_instances,
             "meta_data": meta_data
         }
 
